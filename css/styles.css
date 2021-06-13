@@ -1,0 +1,37 @@
+body {
+  padding-top: 40px;
+  font-family: 'Courier New', monospace;
+  text-align: center;
+  background: #ddd;
+}
+
+#target {
+  font-size: 48px;
+  letter-spacing: .1em;
+}
+
+#result {
+  transition: .5s;
+  margin: 25px 0;
+}
+
+#replay.hidden {
+  opacity: 0;
+}
+
+#replay {
+  font-size: 24px;
+  background: #3498db;
+  padding: 8px;
+  border-radius: 4px;
+  cursor: pointer;
+  text-align: center;
+  color: #fff;
+  text-decoration: none;
+  box-shadow: 0 4px 0 #2880b9;
+  transition: .5s;
+}
+
+#replay:hover {
+  opacity: 0.5;
+}
